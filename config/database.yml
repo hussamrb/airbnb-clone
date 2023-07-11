@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: airbnb_clone_development
+  username: postgres
+  password: hussam
+  host: localhost
+  pool: 10
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: airbnb_clone_test
+  host: localhost
+  username: postgres
+  password: hussam
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: airbnb_clone_production
+  host: localhost
+  username: postgres
+  password: hussam
+  pool: 5
